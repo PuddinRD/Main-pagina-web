@@ -61,3 +61,68 @@ header{
     width: 90%;
     margin: auto;
 }
+
+/* ARRANCA SECCION SOBRE MI */
+
+h3 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.contenedor_sobremi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor_parrafo_y_boton {
+    width: 42%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contenedor_parrafo_y_boton p {
+    font-size: 18px;
+}
+
+.contenedor_parrafo_y_boton a {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.contenedor_servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.servicio {
+    width: 22%;
+    padding: 38px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.violeta {
+    background: #5055df;
+}
+
+.celeste {
+    background: #40a8fa;
+}
+
+.servicio h4 {
+    font-size: 20px;
+    margin: 0;
+
+}
+
+.servicio img {
+    float: right;
+}
+
+.servicio p {
+    font-size: 16px;
+}
